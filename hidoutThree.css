@@ -10,18 +10,16 @@ display: block;
 
 .leftBorder {
   float: left;
-  height: 824px;
+  height: 826px;
   width: 2.5%;
-  background-color: #181009;
-  filter: brightness(66%);
-
+  filter: brightness(86%);
+  background-image: url("http://www.desktopimages.org/pictures/2014/0309/1/th1_60262.jpg");
 
 }
 
 .leftBorderTwo {
   float: left;
-
-  height: 824px;
+  height: 826px;
   width: 22%;
   background-color: #000000;
 
@@ -31,15 +29,15 @@ display: block;
   background-image: url(http://www.hideouttheatre.com/wp-content/uploads/2009/06/DSC01445-1024x685.jpg);
   float: left;
   height: 440px;
-  width: 73%;
-  background-size: length 370px;
+  width: 75%;
+
 }
 
 .textDiv {
   float: left;
-  height: 378px;
+  height: 385px;
   width: 73%;
-  background-color: white;
+  background-color: rgba(247, 252, 95, 0.5);
 
 
 }
@@ -47,33 +45,47 @@ display: block;
 .rightBorder {
   margin-top: -450px;
   float: left;
-  height: 828px;
+  height: 840px;
   width: 2.5%;
-  background-color: #181009;
-  filter: brightness(99%);
+  filter: brightness(86%);
+  background-image: url("http://www.desktopimages.org/pictures/2014/0309/1/th1_60262.jpg");
+
 
 }
 
 .imagecoff {
-
-height: 340px;
+height: 380px;
+width: 380px;
 
 }
 
 .htwo {
+  background-color: grey;
   text-align: center;
-  padding-bottom: 20%;
+  padding-bottom: 6%;
   font-size: 40px;
   float: left;
-  height: 150px;
-  width: 60%;
+  height: 100px;
+  width: 90%;
   margin-top: -2px;
+  margin-left: 5%;
+  filter: opacity(80%);
+  border-radius: 5px;
+  font-family: 'Barrio', cursive;
 
+}
+
+.ptext {
+  width: 80%;
+  margin-top: 10%;
+  margin-left: 10%;
+  font-size: 20px;
+  background-color: red;
 }
 
 
 .logobox {
-  margin-left: 6%;
+  margin-left: 17%;
   margin-top: 15%;
   clear: both;
 
@@ -84,21 +96,26 @@ height: 340px;
 .logo {
   max-width: 100%;
   max-height: 100%;
-  filter: invert(100%);
+  border-radius: 100%;
+  box-sizing: content-box;
+  filter:opacity( 80%);
 
 }
 
 .btn-group button {
-    background-color: #4CAF50; /* Green background */
-    border: 1px solid green; /* Green border */
+    font-size: 20px;
     color: white; /* White text */
-    padding: 10px 24px; /* Some padding */
     cursor: pointer; /* Pointer/hand icon */
-    width: 50%; /* Set a width if needed */
+    width: 100%; /* Set a width if needed */
+    height: 60px;
     display: block; /* Make the buttons appear below each other */
+    background:none;
+    border:none;
+    margin:0;
+    padding:0;
 }
 
-.btn-group button:not(:last-child) {
+/*.btn-group button:not(:last-child) {
     border-bottom: none; /* Prevent double borders */
 }
 
